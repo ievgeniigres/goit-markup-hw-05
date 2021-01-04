@@ -29,6 +29,8 @@ a{
     --clients-logo: #afb1b8;
     --work-list-border: #EEEEEE;
 
+    --timing: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 body{
     color: var(--title-text-color);
@@ -141,6 +143,23 @@ margin-right: 50px;
 .navigation_menu .link.studio{
     color: var(--accent-color);
 }
+
+
+/*.navigation_menu .link.studio::after{
+    contant:'';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width:100%;
+    height: 4px;
+
+    background-color: var(--accent-color);
+    border-radius: 2px;
+
+    opacity: 1;
+    transform: scaleX(1);
+}*/
 
 /*====header address===*/
 
@@ -307,6 +326,31 @@ margin-right: 50px;
 
 .job_list .item:not(:nth-child(3n)){
      margin-right: 30px;
+}
+
+.title-page_image_wrp{
+    position: relative;
+}
+
+.title-page_overlay{
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    left: 0;
+    bottom: 0;
+
+    color: var(--primary-white-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: rgba(47, 48, 58, 0.8);
 }
 
 /*===our team===*/
