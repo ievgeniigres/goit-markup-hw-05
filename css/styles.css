@@ -140,12 +140,8 @@ margin-right: 50px;
 .navigation_menu .link:focus{
     color: var(--accent-color);
 }
-.navigation_menu .link.studio{
-    color: var(--accent-color);
-}
 
-
-/*.navigation_menu .link.studio::after{
+/*.navigation_menu .link .studio::after{
     contant:'';
     display: block;
     position: absolute;
@@ -159,6 +155,7 @@ margin-right: 50px;
 
     opacity: 1;
     transform: scaleX(1);
+
 }*/
 
 /*====header address===*/
@@ -428,7 +425,7 @@ margin-right: 50px;
 .social_list_link:hover,
 .social_list_link:focus{
     background-color: var(--accent-color);
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
 }
 
 .social_list_icon{
